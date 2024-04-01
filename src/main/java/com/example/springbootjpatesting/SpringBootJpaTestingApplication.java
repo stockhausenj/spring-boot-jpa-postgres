@@ -1,4 +1,4 @@
-package com.example.springbootjpapostgres;
+package com.example.springbootjpatesting;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,17 +7,17 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import com.example.springbootjpapostgres.model.Person;
-import com.example.springbootjpapostgres.repo.PersonRepository;
+import com.example.springbootjpatesting.model.Person;
+import com.example.springbootjpatesting.repo.PersonRepository;
 
 
 @SpringBootApplication
-public class SpringBootJpaPostgresApplication {
+public class SpringBootJpaTestingApplication {
 
-	private static final Logger log = LoggerFactory.getLogger(SpringBootJpaPostgresApplication.class);
+	private static final Logger log = LoggerFactory.getLogger(SpringBootJpaTestingApplication.class);
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootJpaPostgresApplication.class, args);
+		SpringApplication.run(SpringBootJpaTestingApplication.class, args);
 	}
 
 	@Bean
